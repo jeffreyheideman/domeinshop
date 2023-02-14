@@ -68,7 +68,7 @@ a:visited {
 
 /*///////////// 3.1 Header /////////////*/
 header {
-    /* Ik heb een probleem met webstorm dat mountains.jpg niet geladen kan worden en als ik een lokale server met vscode opstart doet hij het wel */
+    /* Ik heb een probleem met webstorm dat mountains.jpg niet wil laden als ik hem lokaal host maar als ik hem host via een andere ide(vscode werkt het wel gewoon)*/
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     background-position: top;
