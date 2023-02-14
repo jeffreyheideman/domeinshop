@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-   font-weight: 700;
+    font-weight: 700;
     font-size: 32px;
     margin: 64px 0;
     text-align: center;
@@ -51,6 +51,7 @@ a:link {
     text-decoration: underline;
     color: #899CA0;
 }
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -59,14 +60,15 @@ a:hover {
 a:visited {
     color: #899CA0;
 }
+
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
-header  {
+header {
+    /* Ik heb een probleem met webstorm dat mountains.jpg niet geladen kan worden en als ik een lokale server met vscode opstart doet hij het wel */
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     background-position: top;
@@ -118,6 +120,7 @@ header  {
     color: #1C2B32;
     cursor: pointer;
 }
+
 /*///////////// 3.2 Testimonial /////////////*/
 .customer-content {
     position: relative;
@@ -148,7 +151,7 @@ header  {
     position: absolute;
     left: 220px;
     top: 145px;
-    }
+}
 
 
 /*///////////// 3.3 Support /////////////*/
@@ -170,6 +173,7 @@ header  {
     border: 2px solid #1C2B32;
     border-radius: 50px;
 }
+
 .contact-btn:hover {
     background-color: #899CA0;
     color: #1C2B32;
@@ -184,6 +188,7 @@ details {
 details:hover {
     cursor: pointer;
 }
+
 .answers {
     background-color: #899CA0;
     border: 1px solid #899CA0;
